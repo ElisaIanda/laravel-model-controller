@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movies</title>
-
-    @vite(["resources/js/app.js", "resources/scss/app.scss"])
+    @vite(['resources/scss/app.scss', 'resources/js/app.js']) 
 </head>
 <body>
+    @include("partials.header")
+
+    <main>
+    @yield("content")
+    </main>
 </body>
 </html>

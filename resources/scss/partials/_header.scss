@@ -1,0 +1,22 @@
+header {
+    background-color: black;
+    .logo {
+        max-width: 300px;
+    }
+
+    ul {
+        list-style: none;
+    }
+    
+    li {
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .nav-link  {
+        text-decoration: none;
+        color: #e6020c;
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
